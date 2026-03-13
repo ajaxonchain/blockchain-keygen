@@ -7,7 +7,7 @@
     "keygen": "./bin/keygen.js"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node --no-warnings src/index.js"
   },
   "dependencies": {
     "@clack/prompts": "^1.1.0",
